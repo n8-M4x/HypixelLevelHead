@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.n8M4.hypixelapiforge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "hypixelapiforge.refmap.json",
+  "plugin": "de.n8M4.hypixelapiforge.MixinConfig",
+  "mixins": [
+  ],
+  "client": [
+    "NameTagMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
