@@ -44,7 +44,7 @@ public class NameTagMixin {
             LevelHead.requestPlayerLevel(uuid);
         }
         boolean flag = !p_360888_.isDiscrete;
-        p_117809_ = Component.literal("§2Hypixel Level: " + "§b§5" + Hypixelapiforge.playerApiList.get(uuid).getLevel());
+        p_117809_ = Component.literal("§6Hypixel Level: " + "§b§d" + Hypixelapiforge.playerApiList.get(uuid).getLevel());
         Vec3 vec3 = p_360888_.nameTagAttachment;
         if(vec3 == null) return;
         p_117810_.pushPose();
