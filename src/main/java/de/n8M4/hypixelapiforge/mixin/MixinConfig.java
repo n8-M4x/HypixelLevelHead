@@ -1,4 +1,4 @@
-package de.n8M4.hypixelapiforge;
+package de.n8M4.hypixelapiforge.mixin;
 
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;

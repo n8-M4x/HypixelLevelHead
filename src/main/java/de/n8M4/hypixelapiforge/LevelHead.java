@@ -5,7 +5,7 @@ import java.util.UUID;
 
 public class LevelHead {
 
-    public static String API_KEY = "api key";
+    public static String API_KEY = UUID.randomUUID().toString();
     public static void requestPlayerLevel(UUID uuid) {
         try {
             HypixelAPI.INSTANCE.getPlayerByUuid(uuid).whenComplete((playerReply, throwable) -> Hypixelapiforge.playerApiList.get(uuid).setLevel((int) playerReply.getPlayer().getNetworkLevel()));

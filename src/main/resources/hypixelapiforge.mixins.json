@@ -4,7 +4,7 @@
   "package": "de.n8M4.hypixelapiforge.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "hypixelapiforge.refmap.json",
-  "plugin": "de.n8M4.hypixelapiforge.MixinConfig",
+  "plugin": "de.n8M4.hypixelapiforge.mixin.MixinConfig",
   "mixins": [
   ],
   "client": [
