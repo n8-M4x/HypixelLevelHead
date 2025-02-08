@@ -54,8 +54,10 @@ public class NameTagMixin {
         Matrix4f matrix4f = p_117810_.last().pose();
         Font font = hypixelapiforge$self().getFont();
         float f = (float)(-font.width(p_117809_)) / 2.0F;
-
-        font.drawInBatch(p_117809_, f, -10, -2130706433, false, matrix4f, p_117811_, flag ? Font.DisplayMode.SEE_THROUGH : Font.DisplayMode.NORMAL, 0, p_117812_);
+        font.drawInBatch(p_117809_, f, -10, -2130706433, false, matrix4f, p_117811_, flag ? Font.DisplayMode.SEE_THROUGH : Font.DisplayMode.NORMAL, 0x5f000000, 15728672);
+        if(flag) {
+            font.drawInBatch(p_117809_, f, -10, -1, false, matrix4f, p_117811_, Font.DisplayMode.NORMAL, 0, 15728672);
+        }
         p_117810_.popPose();
     }
 
