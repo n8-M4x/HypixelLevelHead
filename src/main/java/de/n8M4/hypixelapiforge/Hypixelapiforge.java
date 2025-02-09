@@ -21,7 +21,6 @@ import java.util.UUID;
 @Mod(Hypixelapiforge.MODID)
 public class Hypixelapiforge {
     public static HashMap<UUID, PlayerStats> playerApiList = new HashMap<>();
-
     public static final String MODID = "hypixelapiforge";
 
     public Hypixelapiforge(FMLJavaModLoadingContext context) {
